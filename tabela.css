@@ -12,7 +12,31 @@ td{
     width: 100px;
 }
 
-table: :nth-child(odd){
+tr:nth-child(odd){
+   background-color: rgb(104, 104, 104)
 
-    
+}
+tr:nth-child(2) td:nth-child(3){
+    background-color: black;
+
+}
+tr:nth-child(3) td:nth-child(3){
+    background-color: black;
+
+}
+tr:nth-child(2) td:nth-child(5){
+    background-color: black;
+
+}
+tr:nth-child(3) td:nth-child(5){
+    background-color: black;
+
+}
+tr:nth-child(2) td:nth-child(6){
+    background-color: black;
+
+}
+tr:nth-child(3) td:nth-child(6){
+    background-color: black;
+
 }
